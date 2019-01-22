@@ -1,0 +1,70 @@
+{{>layout/header}}
+<body>
+<section class="section">
+    <h2 class="title">cf app: {{cfapp.name}}</h2>
+</section>
+<section class="section">
+    <div class="columns is-1">
+        <div class="column is-paddingless is-one-third"><h3 class="subtitle">application_id</h3></div>
+        <div class="column is-paddingless is-two-thirds">{{cfapp.application_id}}</div>
+    </div>
+
+    <div class="columns is-1">
+        <div class="column is-paddingless is-one-third"><h3 class="subtitle">application_name</h3></div>
+        <div class="column is-paddingless is-two-thirds">{{cfapp.application_name}}</div>
+    </div>
+
+    <div class="columns is-1">
+        <div class="column is-paddingless is-one-third"><h3 class="subtitle">application_version</h3></div>
+        <div class="column is-paddingless is-two-thirds">{{cfapp.application_version}}</div>
+    </div>
+
+    <div class="columns is-1">
+        <div class="column is-paddingless is-one-third"><h3 class="subtitle">application_uris</h3></div>
+        <div class="column is-paddingless is-two-thirds">{{cfapp.application_uris}}</div>
+    </div>
+
+    <div class="columns is-1">
+        <div class="column is-paddingless is-one-third"><h3 class="subtitle">cf_api</h3></div>
+        <div class="column is-paddingless is-two-thirds">{{cfapp.cf_api}}</div>
+    </div>
+
+    <div class="columns is-1">
+        <div class="column is-paddingless is-one-third"><h3 class="subtitle">space_name</h3></div>
+        <div class="column is-paddingless is-two-thirds">{{cfapp.space_name}}</div>
+    </div>
+
+    <div class="columns is-1">
+        <div class="column is-paddingless is-one-third"><h3 class="subtitle">space_id</h3></div>
+        <div class="column is-paddingless is-two-thirds">{{cfapp.space_id}}</div>
+    </div>
+
+    <div class="columns is-1">
+        <div class="column is-paddingless is-one-third"><h3 class="subtitle">version</h3></div>
+        <div class="column is-paddingless is-two-thirds">{{cfapp.version}}</div>
+    </div>
+
+    <div class="columns is-1">
+        <div class="column is-paddingless is-one-third"><h3 class="subtitle">limits</h3></div>
+        <div class="column is-paddingless is-two-thirds">{{cfapp.limits}}</div>
+    </div>
+
+    <div class="columns is-1">
+        <div class="column is-paddingless is-one-third"><h3 class="subtitle">uris</h3></div>
+        <div class="column is-paddingless is-two-thirds">{{cfapp.uris}}</div>
+    </div>
+
+    <div class="columns is-1">
+        <div class="column is-paddingless is-one-third"><h3 class="subtitle">instance_index</h3></div>
+        <div class="column is-paddingless is-two-thirds">{{cfapp.instance_index}}</div>
+    </div>
+
+    <div class="columns is-1">
+        <div class="column is-paddingless is-one-third"><h3 class="subtitle">services</h3></div>
+        <div class="column is-paddingless is-two-thirds">{{cfservices}}</div>
+    </div>
+
+</section>
+<!-- /.container -->
+</body>
+{{>layout/footer}}

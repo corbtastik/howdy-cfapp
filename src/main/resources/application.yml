@@ -1,0 +1,3 @@
+site:
+  title: 'howdy-cfapp'
+  subtitle: 'A Spring Boot with Mustache and Bulma built site'
