@@ -13,4 +13,4 @@ Small demo application for Cloud Foundry, implemented in...
 1. cf push
 1. access app endpoint
 
-![image](https://user-images.githubusercontent.com/21281389/51556295-6bb04d80-1e3f-11e9-945d-7f0d5ff1ded2.png)
+![image](https://user-images.githubusercontent.com/21281389/51558000-01e67280-1e44-11e9-9b1e-f59ea458ca12.png)
