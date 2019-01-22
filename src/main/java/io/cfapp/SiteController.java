@@ -32,13 +32,6 @@ public class SiteController {
         this.json = json;
     }
 
-    @GetMapping("/site")
-	public String site(Map<String, Object> model) {
-		model.put("title", title);
-		model.put("subtitle", subtitle);
-		return "site";
-	}
-
     @GetMapping("/")
     public String index(Map<String, Object> model) throws IOException {
         model.put("title", title);
